@@ -1,0 +1,35 @@
+/*
+General colors 
+*/
+:root {
+  --background-color: #0275d8;
+  --sec-col:rgba(247, 247, 247, 0.925);
+  --white:#fff;
+  --black: #000;
+}
+
+/*
+General style 
+*/
+
+* {
+  text-align: right;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(../images/wallpaper.jpg);
+  background-size: cover;
+  font-family: 'Cairo', sans-serif;;
+}
+
+div {
+  color:var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size:70px;
+}
